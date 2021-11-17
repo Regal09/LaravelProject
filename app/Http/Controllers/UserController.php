@@ -15,7 +15,7 @@ class UserController extends Controller
 
       $user = User::where(['email'=>$req->email])->first();
 
-      if(!$user || Hash::check($req->passeword,$user->passeword)){
+      if(!$user || Hash::check($req->passeword,$user->password)){
 
         return "Username or password is not matched";
       }else{
