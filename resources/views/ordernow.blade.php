@@ -36,7 +36,7 @@
     <input type="radio" name="payment"><span> EMI payment</span> <br> <br>
     <input type="radio" name="payment"><span> Payment on delevry</span> <br> <br>
   </div>
-  <button type="submit" class="btn btn-default">Order now</button>
+  <button type="submit" class="btn btn-success">Order now</button>
 </form>
 </div>
 </div>
