@@ -38,7 +38,7 @@
       </form>
       @if(Session::has('user'))
       <ul class="nav navbar-nav navbar-right">
-        <li><a href="#">Cart({{$total}})</a></li>
+        <li><a href="/cartlist">Cart({{$total}})</a></li>
         <li class="dropdown">
         <a class="dropdown-toggle" data-toggle="dropdown" href="#">{{Session::get('user')['name']}}
         <span class="caret"></span></a>
