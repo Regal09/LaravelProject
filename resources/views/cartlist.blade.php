@@ -5,6 +5,7 @@
 <div class="custom-products">
     <div class="col-sm-10">
       <div class="trending-wrapper">
+        <a class="btn btn-succes"href="ordernow">Order Now</a> <br><br>
       <h4>Result for products</h4>
       @foreach($products as $item )
       <div class="row searched-item cart-devider">
@@ -26,6 +27,7 @@
   </div>
   @endforeach
 </div>
+  <a class="btn btn-succes"href="ordernow">Order Now</a> <br><br>
 </div>
 </div>
 
