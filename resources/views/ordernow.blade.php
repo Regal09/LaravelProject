@@ -34,8 +34,8 @@
   <div class="form-group">
     <label for="pwd">Payment Method:</label> <br> <br>
     <input type="radio" value="cash" name="payment"><span> online payment</span> <br> <br>
-    <input type="radio" value="cash"><span> EMI payment</span> <br> <br>
-    <input type="radio" value="cash"><span> Payment on delevry</span> <br> <br>
+    <input type="radio" value="cash" name="payment"><span> EMI payment</span> <br> <br>
+    <input type="radio" value="cash" name="payment"><span> Payment on delevry</span> <br> <br>
   </div>
   <button type="submit" class="btn btn-success">Order now</button>
 </form>
